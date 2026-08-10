@@ -1,0 +1,4 @@
+timestamp,sender,receiver,message_type,message
+2026-08-04 02:15:00,ClientA,ALL,Broadcast,Hello everyone!
+2026-08-04 02:15:10,ClientB,ClientA,Private,"Hey ClientA, private message test!"
+2026-08-04 02:15:20,ClientC,ALL,Broadcast,Mininet network test complete.
