@@ -1,0 +1,5 @@
+10:00:01,Rahul,Hello Everyone
+10:00:15,Bishal,Hi Rahul!
+10:01:05,Parinita,Welcome to the chat server!
+10:02:30,Rahul,Testing performance with multiple clients.
+10:03:00,Bishal,Everything looks good on my end.
