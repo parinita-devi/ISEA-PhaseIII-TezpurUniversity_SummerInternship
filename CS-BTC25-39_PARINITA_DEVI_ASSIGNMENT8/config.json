@@ -1,0 +1,8 @@
+{
+  "server_ip": "10.0.0.1",
+  "server_port": 12345,
+  "max_clients": 20,
+  "thread_pool_size": 15,
+  "socket_timeout": 300.0,
+  "max_failed_attempts": 5
+}
