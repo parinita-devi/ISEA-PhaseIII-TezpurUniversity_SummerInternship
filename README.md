@@ -18,6 +18,8 @@ This repository contains a series of socket programming assignments completed du
 | A4 | Multi-Client TCP Chat | [`CS-BTC25-39_PARINITA_DEVI_CHATSERVER`](./CS-BTC25-39_PARINITA_DEVI_CHATSERVER) | A TCP-based chat server capable of handling multiple simultaneous client connections using multithreading/multiplexing. |
 | A5 | Advanced TCP Chat | [`CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT5`](./CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT5) | An enhanced version of the chat application with additional features such as improved concurrency handling, message broadcasting, and client management. |
 | A6 | GUI TCP Chat | [`CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT6`](./CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT6) | A graphical user interface built on top of the TCP chat application, providing an intuitive front-end for real-time messaging. |
+| A7 | Secure Network Application Development Using TCP | [`CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT7`](./CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT7) | Extends the Assignment 6 GUI chat application with practical security mechanisms — username/password authentication, SHA-256 password hashing, duplicate login prevention, input validation, failed-login lockout, session timeout, secure logging, and Wireshark-based authentication verification. |
+| A8 | Application Optimization, Scalability and Reliability | [`CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT8`](./CS-BTC25-39_PARINITA_DEVI_ASSIGNMENT8) | Builds on Assignment 7 to improve scalability, reliability, and maintainability — automatic disconnect detection, reconnection and graceful shutdown, support for 10+ concurrent clients, externalized configuration via `config.json`, before/after performance evaluation (delay, throughput, CPU, memory), and Wireshark verification. |
 
 ---
 
@@ -35,14 +37,16 @@ The assignments follow a logical progression:
 4. **A4 – Multi-Client Chat** applies TCP concepts to build a functional multi-user chat server.
 5. **A5 – Advanced Chat** refines the chat server with better concurrency and feature handling.
 6. **A6 – GUI Chat** completes the series by wrapping the chat client in a graphical interface for a more user-friendly experience.
+7. **A7 – Secure Application** extends the GUI chat application with authentication, secure password storage, and other application-level security mechanisms.
+8. **A8 – Optimization & Scalability** builds on A7 to improve scalability, reliability, and resource management, backed by measured performance evaluation.
 
 ---
 
 ## Tech Stack
 
 - **Language:** Python / C (as applicable per assignment)
-- **Concepts:** Socket Programming, TCP/UDP Protocols, Raw Sockets, Multithreading, Client-Server Architecture, GUI Development
-- **Tools:** Wireshark (for packet analysis, where applicable)
+- **Concepts:** Socket Programming, TCP/UDP Protocols, Raw Sockets, Multithreading, Client-Server Architecture, GUI Development, Application Security (Authentication, Password Hashing, Session Management), Performance Optimization & Scalability
+- **Tools:** Wireshark (packet analysis), Mininet (network emulation/testing), hashlib (SHA-256 password hashing)
 
 ---
 
